@@ -9,4 +9,3 @@ for code in chars  {
 full = full.join("")
 $.writefile("balls.spwn", full)
 import "balls.spwn"
-$.deletefile("balls.spwn")
