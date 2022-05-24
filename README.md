@@ -7,4 +7,4 @@ A "programming language" (not even close though) written in SPWN (no JS included
 ```
 
 # Running
-Running with SPWN v0.8 does not work. Instead, you have to use an unreleased and unstable version, which I have compiled. Download it [here](https://github.com/Unzor/spwn-unstables/releases/download/v1.0/spwn-unstables-setup.exe), and add "C:\Program Files (x86)\SPWN Unstables" to your PATH enviroment variables.
+Clone this repo, CD into it, and run `spwn build char.spwn -l --allow readfile --allow writefile`.
