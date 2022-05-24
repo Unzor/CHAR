@@ -1,0 +1,12 @@
+let charcodes = import charcodes
+let program = $.get_input("File to run? ")
+program = $.readfile(program.trim("\r"))
+let chars = program.split("-")
+let full = []
+for code in chars  {
+	full.push(charcodes.fromCharCode(code))
+}
+full = full.join("")
+$.writefile("balls.spwn", full)
+import "balls.spwn"
+$.deletefile("balls.spwn")
